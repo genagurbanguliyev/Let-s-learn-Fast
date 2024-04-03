@@ -34,14 +34,15 @@ pip freeze
 pip freeze > requirements.txt
 ```
 
-conda clean cache
-```sh
-conda clean --all
-```
+pip clean cache
 
-conda update
-```sh
-conda update conda # udate only conda
-conda update --all
-```
+With pip 20.1 or later, you can do:
 
+- `pip cache remove matplotlib`: removes all wheel files related to matplotlib from pip's cache.
+- `pip cache purge`: to clear all wheel files from pip's cache.
+- `pip cache dir`: to get the location of the cache.
+
+If you want to not use the pip cache for some reason (which is a bad idea, according [the official docs](https://pip.pypa.io/en/stable/topics/caching/#disabling-caching)), your options are:
+
+- `pip install --no-cache-dir <package>`: install a package without using the cache, for just this run.
+- `pip config set global.no-cache-dir false`: configure pip to not use the cache "globally" (in all commands).
