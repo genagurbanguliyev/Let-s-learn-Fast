@@ -1,5 +1,6 @@
 ## Work with docker-image
 
+> Docker image - 
 > **Run docker image**
 ```sh
 docker run <docker-image-id> # image-id first 3 digit you can write
@@ -23,8 +24,6 @@ docker rmi -f <docker-image-id>
 ```sh
 docker stop <container_id_or_name>
 ```
-
-***
 
 #### List docker container
 
