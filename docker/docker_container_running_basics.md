@@ -1,3 +1,9 @@
+##### Start-Stop the Container
+> **Stop container**
+```sh
+docker stop <container_id_or_name>
+```
+
 
 > **execute a command in a running container**
 ```sh

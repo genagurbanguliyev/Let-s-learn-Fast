@@ -24,7 +24,7 @@ docker build .
 
 > if your want build an image with specific name and tag:
 ```sh
-docker build . -t my_dockerimage:1.0
+docker build -t my_dockerimage:1.0 .
 ```
 
  - `-t` - add name and tag to new created docker image/
