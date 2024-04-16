@@ -1,4 +1,5 @@
-> Creating own docker image you need Dockerfile that contains structure of image
+## Simple python Dockerfile
+###### Creating own docker image you need Dockerfile that contains structure of image
 `Dockerfile`:
 ```dockerfile
 
@@ -15,17 +16,28 @@ COPY . .
 CMD ["python", "main.py"]
 ```
 
-> Build docker image:
+
+## Build docker image
+###### Build docker image:
 ```sh
 docker build .
 ```
  - if you in the root directory and your `Dockerfile` with this name you can put `.` Because docker automatically takes that named `Dockerfile` . But if your Dockerfile named like `Dockerfile.dev` or `Dockerfile.prod` your must show that name...
  - this builds an image with random ID
 
-> if your want build an image with specific name and tag:
+###### if your want build an image with specific name and tag:
 ```sh
 docker build -t my_dockerimage:1.0 .
 ```
 
  - `-t` - add name and tag to new created docker image/
  - `tag` - if you don't show tag(version) docker automatically create with tag `latest`
+
+## Remove docker-image
+```sh
+# remove docker-image
+docker rmi <docker-image-id>
+
+# remove in image run using --force
+docker rmi -f <docker-image-id>
+```

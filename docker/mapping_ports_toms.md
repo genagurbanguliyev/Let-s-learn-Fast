@@ -1,4 +1,4 @@
-> **mapping ports**
+## Mapping ports
 ```sh
 docker run -p 8080:80 nginx
 ```
@@ -9,7 +9,7 @@ docker run -p 8080:80 nginx
  - `80` - internal port [port of container]
  - `nginx` - name of image
 
-> **Mapping toms**
+## Mapping toms
 ```sh
 docker run -v ${PWd}:/usr/share/nginx/html nginx
 ```
