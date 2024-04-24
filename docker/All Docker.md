@@ -18,7 +18,7 @@
 
 ### Docker login cli:
  - login from cmd: [[cmd_docker_login#login cli]]
- - # ERRORS:
+ - # Errors when login:
 	 - errors docker login: [[cmd_docker_login#Errors when login]]
 
 
@@ -30,3 +30,5 @@
 
 ### Docker push:
  - push local image to docker hub: [[push#push local image to docker hub]]
+ - # Errors when push:
+	 - errors docker push: [[push#Errors when push]]
