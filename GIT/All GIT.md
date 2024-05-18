@@ -1,0 +1,3 @@
+ - GIT fist push basics: [[Git push first]]
+ - GIT reset & revert. remove committed elements from local Git repo since you haven't pushed them yet: [[git reset revert]]
+ - 
