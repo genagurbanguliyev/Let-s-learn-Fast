@@ -1,8 +1,3 @@
-###### Truncate the Table:
-```sql
-TRUNCATE TABLE table_name;
-```
-
 ###### remove all tables in database
 ```sql
 DO $$ DECLARE 

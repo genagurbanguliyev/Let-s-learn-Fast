@@ -1,4 +1,4 @@
-> [!tip] use in ubuntu terminal
+> [!tip] in ubuntu terminal
 
 ### sign in to psql console:
 ```shell
@@ -39,7 +39,7 @@ psql (desired_database_name)> SELECT table_name FROM information_schema.tables;
  ... (other tables in the database)
  ```
 
-### show the columns in a table:
+#### show the columns in a table:
 ```sql
 psql> \c desired_database_name # Connect to the database psql (desired_database_name)> \d your_table_name;
 ```
