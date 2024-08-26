@@ -9,8 +9,4 @@ sample text
 
 ```
 
-### How to 
-sample text
-```
 
-```

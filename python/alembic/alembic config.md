@@ -4,7 +4,7 @@ for use alembic for migrations:
 
 2. Run init command in root directory:
 ```shell
-alembic init alembic_name # alembic_name folder name
+alembic init alembic # last alembic is folder name
 ```
 
 After this command create `alembic.ini` file and `alembic_name` folder inside the folder has `env.py` file and there some configurations:

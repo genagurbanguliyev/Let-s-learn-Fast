@@ -21,8 +21,6 @@
 
 
 ***
-
-
 # [How can I disable automatic update for a single snap in Ubuntu?](https://askubuntu.com/questions/1131182/how-can-i-disable-automatic-update-for-a-single-snap-in-ubuntu)
 
 with the latest version of snap (so far on edge channel) you can disable snap updates
