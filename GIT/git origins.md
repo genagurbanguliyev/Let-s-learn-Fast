@@ -4,7 +4,6 @@ tags:
   - "#git_origin"
 created_at: 2024-05-17
 ---
-
 ### Work with origin:
 
 **show origins:**

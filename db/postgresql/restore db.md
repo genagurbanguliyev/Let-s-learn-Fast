@@ -40,12 +40,11 @@ To import a database from a file, you can use the `psql` utility. Here's how:
 First, create a new database where you'll import the data:
 `createdb -U username database_name`
 Then, import the data using `pg_restore` for TAR files:
-
 ```sql
 pg_restore -U username -d database_name -1 database_file.tar
 ```
-Or, if you exported the database in SQL format (using `-F p` option with `pg_dump`), you would use `psql` instead:
 
+Or, if you exported the database in SQL format (using `-F p` option with `pg_dump`), you would use `psql` instead:
 ```sql
 psql -U username -d database_name < database_file.sql
 ```

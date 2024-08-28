@@ -19,9 +19,9 @@
  - list databases & tables: [[cmd basics#list databases & tables]]
  - show the columns in a table: [[cmd basics#show the columns in a table]]
 
-
 #### Restore:
  - Restore db from file: [[restore db]]
+ - [[backup and restore one table in db]]
  - # ERRORS: 
 	 - [[restore error|Invalid byte sequence error]]
 
