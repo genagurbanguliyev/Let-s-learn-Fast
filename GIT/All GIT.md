@@ -18,4 +18,8 @@
 ### Work with git origins:
  - [[git origins]]
 
+***
+
+### Work with tags:
+ - [[git origins]]
  
