@@ -1,3 +1,11 @@
+---
+Technology: database
+tags:
+  - sql
+  - restore_backap
+created_at: 2024-10-11
+---
+### Working with restore
 ##### Restore db from `sql` file:
 
 ###### use `pg_restore`

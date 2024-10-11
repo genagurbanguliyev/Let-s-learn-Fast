@@ -28,7 +28,14 @@ git checkout <branch_name>
 ```
 git checkout main  # Assuming you want to merge into the main branch
 ```
-- 2. **Merge the other branch:**
+
+- 2. Merge the other branch:
+```
+git merge <feature_branch>
+```
+<small>This command will merge the changes from the `feature_branch` into the current branch (`main` in this example).</small>
+
+- 2. Merge the other branch:
 ```
 git merge <feature_branch>
 ```

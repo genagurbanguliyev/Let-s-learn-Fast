@@ -1,18 +1,19 @@
+---
+Technology: system_ubuntu
+tags:
+  - bash
+  - "#server"
+  - share
+created_at: 2024-09-26
+---
+### Working with share files
 send file from local computer to server
 ```
 scp /path/to/local/file username@remote_host:/path/to/remote/directory
 ```
 
-The syntax for `scp` is:
-
-If you are on the computer from which you want to send file to a remote computer:
-
-```
-scp /file/to/send username@remote:/where/to/put
-```
 
 Here the `remote` can be a FQDN or an IP address.
-
 On the other hand if you are on the computer wanting to receive file from a remote computer:
 
 ```

@@ -26,4 +26,4 @@
 	 - [[restore error|Invalid byte sequence error]]
 
 #### Database:
- - remove all tables in database: [[dp psql#Truncate the Table]]
+ - remove all tables in database: [[drop all tables psql#Truncate the Table]]

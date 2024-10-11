@@ -1,3 +1,10 @@
+---
+Technology: docker
+tags:
+  - remove
+  - prune
+created_at: 2024-10-12
+---
 ## List docker container
 
 > **To list only the running containers**
@@ -27,9 +34,16 @@ docker rm -f <container_id_or_name>
 
 # Remove Multiple Containers
 docker rm <container_id_1> <container_id_2> <container_id_3>
+```
 
-# remove all stopped containers
+###### Remove all cached:
+```
 docker container prune
+```
+
+clear all from system:
+```
+docker system prune --all
 ```
 
 ###### run container, if stop it removes automatically: [[container_running_basics#remove container automatically when it stops]]

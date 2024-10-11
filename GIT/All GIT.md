@@ -1,5 +1,12 @@
  ### [[Git push first]]
 
+***
+### Git commit:
+ - [[git amend_push]]
+
+
+***
+
 ### GIT reset & revert:
 - remove committed elements from local Git repo since you haven't pushed them yet: [[git reset revert]]
 

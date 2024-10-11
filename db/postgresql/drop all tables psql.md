@@ -1,3 +1,11 @@
+---
+Technology: database
+tags:
+  - postgres
+  - sql
+created_at: 2024-10-11
+---
+### Working with tables
 ###### remove all tables in database
 ```sql
 DO $$ DECLARE 

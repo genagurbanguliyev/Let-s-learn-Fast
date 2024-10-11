@@ -1,4 +1,11 @@
-
+---
+Technology: system_ubuntu
+tags:
+  - bash
+  - "#update"
+created_at: 2024-09-26
+---
+### Working with upgrading apps:
 - List installed versions in your system:
     ```bash
     $ snap list intellij-idea-ultimate  --all
@@ -10,12 +17,12 @@
     ```
 	
 - Revert to a previous one:
-    ```
+    ```bash
     sudo snap revert intellij-idea-ultimate
     ```
     
 - Revert to a specific revision:
-    ```
+    ```bash
     sudo snap revert intellij-idea-ultimate --revision 212
     ```
 
@@ -29,7 +36,7 @@ The new hold feature allows system administrators and end users to stop or postp
 
 For instance, to pause snap updates for VLC for 3 days, you would run the following command:
 
-```
+```bash
 snap refresh --hold=72h vlc
 ```
 
@@ -37,7 +44,7 @@ General refreshes of "vlc" held until 2022-11-17T12:04:59Z
 
 Similarly, to pause snap refreshes for all snaps for a period of 48 hours:
 
-```
+```bash
 snap refresh --hold=48h
 ```
 
@@ -45,7 +52,7 @@ Auto-refresh of all snaps held until 2022-11-16T12:27:25Z
 
 To stop the automatic refresh completely, and without a timer:
 
-```
+```bash
 snap refresh --hold
 ```
 

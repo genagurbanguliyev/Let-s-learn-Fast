@@ -1,6 +1,14 @@
-show if used then disable given port:
+---
+Technology: system_ubuntu
+tags:
+  - bash
+  - "#port"
+  - "#disable"
+created_at: 2024-09-26
+---
+### show if used then disable given port:
 
-### Example Steps:
+##### Example Steps:
 
 1. **Identify the Process Using the Port**:
     `sudo lsof -i :8000`
